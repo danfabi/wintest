@@ -1,6 +1,5 @@
 module(name = "wintest")
 
-bazel_dep(name = "rules_cc", version = "0.0.9")
 bazel_dep(name = "rules_rust", version = "0.46.0")
 
 cc_configure = use_extension("@bazel_tools//cpp:cc_configure.bzl", "cc_configure_extension")
